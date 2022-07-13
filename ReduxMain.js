@@ -4,7 +4,7 @@ import {View, Button, Text, TextInput, StyleSheet} from 'react-native'
 import { useSelector, useDispatch } from 'react-redux'
 import { store } from './store'
 
-import { decrement,increment, incrementByInput } from './Features/counterSlice'
+import { decrement,increment, incrementByInput } from './counterSlice'
 
 
 
